@@ -80,7 +80,7 @@ main {
     border-radius: 10px;
     padding: 20px;
     color: #fff7e8;
- }
+}
 
 .products-share {
     background-color: #fff7e8;
@@ -97,6 +97,47 @@ main {
     text-align: start;
     padding-left: 20px;
     padding-bottom: 10px;
+}
+
+.products-share p {
+    color: #2f4858;
+    font-size: 1.2rem;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.products2-share {
+    background-color: #fff7e8;
+    color: #2f4858;
+    margin-bottom: 40px;
+    align-items: center;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.products2-share h2 {
+    color: #2f4858;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.products2-share p {
+    color: #2f4858;
+    font-size: 1.2rem;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.products2-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 5px;
 }
 
 footer {
@@ -143,7 +184,7 @@ footer {
 
 .products-carrusel::-webkit-scrollbar {
     display: none;
- }
+}
 
 .product {
     flex: 0 0 auto;
@@ -159,6 +200,11 @@ footer {
     transition: transform 0.3s ease;
 }
 
+.product:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
 .product p {
     font-size: 1.2rem;
     color: #2f4858;
@@ -169,6 +215,7 @@ footer {
     text-decoration: none;
     color: #2f4858;
 }
+
 .product img {
     width: 100%;
     height: auto;
