@@ -107,11 +107,17 @@ main {
     padding-bottom: 10px;
 }
 
+.products2-container {
+    max-height: 550px;
+    overflow-y: auto;
+    padding-right: 10px;
+
+}
+
 .products2-share {
     background-color: #fff7e8;
     color: #2f4858;
     margin-bottom: 40px;
-    align-items: center;
     border-radius: 10px;
     text-align: start;
 }
@@ -136,7 +142,6 @@ main {
 .products2-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
     margin: 5px;
 }
 
