@@ -1,0 +1,25 @@
+@mixin card-style {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        margin: 0;
+        font-weight: bold;
+        color: #444;
+    }
+    &:hover {
+        transform: scale(1.06);
+    }
+}

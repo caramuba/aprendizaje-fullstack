@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Press+Start+2P&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff7e8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(325deg, rgba(175, 220, 237, 1) 0%, rgba(130, 216, 250, 1) 36%, rgba(158, 228, 255, 1) 39%, rgba(255, 166, 0, 1) 65%, rgba(248, 188, 33, 1) 69%, rgba(237, 221, 83, 1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.logo h1 {
+     font-family: "Bitcount Grid Double", system-ui;
+    font-size: 2rem;
+    color: #fff7e8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff7e8;
+    border-radius: 10px;
+    transition: background-color 0.6s;
+}
+
+.navbar a:hover {
+    background-color: #fff7e8;
+    color: #000;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+main {
+    width: 90%;
+    min-height: 60vh;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #33658a;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff7e8;
+}
+
+.products-share {
+    background-color: #fff7e8;
+    margin-bottom: 40px;
+    align-items: center;
+    border-radius: 10px;
+    height: 50%;
+}
+
+.products-share h2 {
+    color: #2f4858;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.products-share p {
+    color: #2f4858;
+    font-size: 1.2rem;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.products2-container {
+    max-height: 550px;
+    overflow-y: auto;
+    padding-right: 10px;
+
+}
+
+.products2-share {
+    background-color: #fff7e8;
+    color: #2f4858;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.products2-share h2 {
+    color: #2f4858;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.products2-share p {
+    color: #2f4858;
+    font-size: 1.2rem;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.products2-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 5px;
+}
+
+footer {
+    background-color: #2f4858;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+.footer-content {
+    text-align: center;
+    color: #fff7e8;
+}
+
+.footer-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #fff7e8;
+    font-weight: bold;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.products-carrusel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.products-carrusel::-webkit-scrollbar {
+    display: none;
+}
+
+.product {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #fff7e8;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px) scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.product:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.product p {
+    font-size: 1.2rem;
+    color: #2f4858;
+    text-align: start;
+}
+
+.product a {
+    text-decoration: none;
+    color: #2f4858;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border: solid 2px black;
+    border-radius: 10px;
+}
