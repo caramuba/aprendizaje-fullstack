@@ -1,0 +1,114 @@
+@charset "UTF-8";
+nav {
+  background-color: #222;
+  padding: 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+nav ul li:hover {
+  background-color: rgb(8.5, 8.5, 8.5);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+body header,
+body footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+body .galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+body .galeria h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+body .galeria .obra {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+body .galeria .obra img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+body .galeria .obra p {
+  margin: 0;
+  font-weight: bold;
+  color: #444;
+}
+body .galeria .obra:hover {
+  transform: scale(1.06);
+}
+
+.obra-1 {
+  border-left: 5px solid hsl(60, 70%, 50%);
+}
+
+.obra-2 {
+  border-left: 5px solid hsl(120, 70%, 50%);
+}
+
+.obra-3 {
+  border-left: 5px solid hsl(180, 70%, 50%);
+}
+
+.obra-4 {
+  border-left: 5px solid hsl(240, 70%, 50%);
+}
+
+.obra-5 {
+  border-left: 5px solid hsl(300, 70%, 50%);
+}
+
+.galeria [data-artista="Van Gogh"] {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-style: italic;
+}
+
+.galeria [data-artista="Da Vinci"] {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-style: italic;
+}
+
+.galeria [data-artista=Picasso] {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-style: italic;
+}
+
+.galeria [data-artista=Dalí] {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-style: italic;
+}
+
+/*# sourceMappingURL=main.css.map */
