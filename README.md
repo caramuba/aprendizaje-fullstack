@@ -1,5 +1,5 @@
 # aprendizaje-fullstack
-En este repositorio se encuentran mis prácticas, proyectos y ejercicios que hare durante el proceso.
+En este repositorio se encuentran mis prácticas, proyectos y ejercicios que hare durante el proceso de aprendizaje.
 
 ## 📁 Estructura
 
@@ -19,10 +19,11 @@ Este repositorio funcionará como bitácora de mi crecimiento como programador.
 
 ## 🚀 Objetivos
 
-- Comprender la base del desarrollo web.
+-Conocer y comprender la base del desarrollo web.
 -aprender a construir aplicaciones utiles y dinámicas.
 -crear un portafolio profesional desde cero.
 
 ---
-Contacto : caramuba@gmail.com   
+Contacto : caramuba@gmail.com 
+GitHub :  https://github.com/caramuba
 Proximamente : mi sitio web personal.
