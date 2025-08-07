@@ -5,8 +5,8 @@ En este repositorio se encuentran mis prácticas, proyectos y ejercicios que har
 
 - **html-css/**- → primeros pasos con etiquetas, maquetacion web y estilos.
 -**javascript/** → Fundamentos de JS, estructura y DOM.
--**mini-proyectos/** → Aplicaciones simples hechas para practicar lo aprendido.
-
+-**miniProyectos/** → Aplicaciones simples hechas para practicar lo aprendido.
+-**desafios curso/** → Aqui se encontraran los proyectos realizados para cumplir con los desfaios del curso. 
 ---
 
 ## ✍ Sobre mí
