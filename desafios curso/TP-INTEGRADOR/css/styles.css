@@ -1,0 +1,12 @@
+.navbar {
+    background: #afdced;
+    background: linear-gradient(325deg,rgba(175, 220, 237, 1) 0%, rgba(130, 216, 250, 1) 36%, rgba(158, 228, 255, 1) 39%, rgba(255, 166, 0, 1) 65%, rgba(248, 188, 33, 1) 69%, rgba(237, 221, 83, 1) 100%);
+}
+
+.navbar span {
+    color: #afdced;
+}
+
+footer {
+    background-color: #2f4858;
+}
