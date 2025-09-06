@@ -13,7 +13,9 @@ calcularIVA();
 alert("Precio con IVA: " + precioConIVA);
 */
 
-// usos y ambitos de las variables
+
+// Formas de uso en el flujo de un programa
+
 var variable1 = "Hola Tierra!"; // Variable Global
 
 if (variable1 != "") {
@@ -29,3 +31,5 @@ document.writeln("El contenido de la variable1 es: " + variable1 + "<br>"); // S
 document.writeln("El contenido de la variable2 es: " + variable2 + "<br>");
 mostrarVariables(); // Llamo a la función para mostrar variable3
 // La variable3 no se puede mostrar aquí porque es local a la función mostrarVariables
+
+

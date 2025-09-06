@@ -1,6 +1,6 @@
 
 // Clasificación de edades con arrow function
-/*
+
 const edad = prompt("Ingrese su edad:");
 const clasificacionEdades = () => {
 
@@ -15,5 +15,4 @@ const clasificacionEdades = () => {
     }
 };
 console.log(clasificacionEdades());
-*/
-
+alert(`Usted es: ${clasificacionEdades()}`);
