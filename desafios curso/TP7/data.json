@@ -1,0 +1,30 @@
+[
+    {
+        "prenda": "camiseta",
+        "color": "blanco",
+        "talle": "xxl",
+        "precio": "700",
+        "imagen": "https://media.istockphoto.com/id/2180964294/photo/blank-white-t-shirt-front-and-back-mockup-plain-cotton-t-shirt-mock-up-template-for-design.jpg?s=1024x1024&w=is&k=20&c=ljtaAE1tkAlVPiDdOkvb-u6LwD0LLiJKbFwmgJhGc3Y="
+    },
+    {
+        "prenda": "gorro",
+        "color": "negro",
+        "talle": "L",
+        "precio": "500",
+        "imagen": "https://media.istockphoto.com/id/2107398050/es/foto/primer-plano-de-la-gorra-negra-aislada-sobre-fondo-blanco.webp?a=1&b=1&s=612x612&w=0&k=20&c=fxGFZmk7LDOqVrDPN1MDBehVJatWvnnT75v-gDP42do="
+    },
+    {
+        "prenda": "buzo",
+        "color": "rojo",
+        "talle": "xxl",
+        "precio": "1200",
+        "imagen": "https://media.istockphoto.com/id/183872597/photo/happy-smiling-young-man-waist-up-portrait.jpg?s=1024x1024&w=is&k=20&c=KtvDifdKobvH4fcDouK8KOSlUJfbevqCQKttGgZGUv4="
+    },
+    {
+        "prenda": "pantalon",
+        "color": "azul",
+        "talle": "xxl",
+        "precio": "1000",
+        "imagen": "https://media.istockphoto.com/id/811403702/photo/protective-working-trousers-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=QJfniF4Z2iodLUqCoZMbIMa_JHgCsdfJNHiuZts4CLQ="
+    }
+]
