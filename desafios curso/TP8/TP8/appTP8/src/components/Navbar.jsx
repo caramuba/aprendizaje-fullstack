@@ -1,15 +1,17 @@
-import { Navlink } from 'react-router-com';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
     return (
         <nav className='navbar'>
-            <Navlink to="/" calssName={({ isActive }) => isActive ? 'activo' : ''}>
+            <NavLink to="/" className={({ isActive }) => isActive ? 'activo' : ''}>
             Home
-            </Navlink>
-            <Navlink to="./Listado" calssName={({ isActive }) => isActive ? 'activo' : ''}>
+            </NavLink>
+            <NavLink to="/Listado" className={({ isActive }) => isActive ? 'activo' : ''}>
             Listado
-            </Navlink>
+            </NavLink>
         </nav>
     )
 }
+
+export default Navbar;

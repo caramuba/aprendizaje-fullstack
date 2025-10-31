@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 function Home() {
     const navigate = useNavigate();
 
-    const irAlListado = () => {
-        navigate('/Listado');
+    const irAListado = () => {
+        navigate('/listado');
     };
 
     return (
@@ -15,3 +15,5 @@ function Home() {
         </div>
     );
 }
+
+export default Home;
